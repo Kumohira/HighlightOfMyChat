@@ -8,7 +8,8 @@ const elements = {
 };
 const BADGES_BASE = "https://badges.twitch.tv/v1/badges";
 const EMOTE_BASE = "https://static-cdn.jtvnw.net/emoticons/v1";
-const TTS_BASE = "http://localhost:3000/my-proxy";
+const TTS_BASE = "https://my-tts-proxy.herokuapp.com/my-proxy";
+// const TTS_BASE = "http://localhost:3000/my-proxy";
 
 const params = new URLSearchParams(location.search);
 const channel = params.get("channel");
